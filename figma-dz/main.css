@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.wrapper{
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+}
+
+.header img{
+    display: inline-block;
+    margin: 60px 0 80px 0;
+}
+
+.product{
+    border-radius: 70px;
+    width: 465px;
+    height: 465px;
+    background: linear-gradient(180deg, rgb(253, 195, 4) 0%, #e41e10 100%);
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.product img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    text-align: center;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 50px;
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 137%;
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.text a{
+    border-radius: 100px;
+    padding: 22px 70px;
+    width: 218px;
+    height: 90px;
+    background: #e94e10;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #000;
+    transition: 0.8s;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.text a:hover{
+    color: #ffffff;
+    background: #97340c;
+}
+.list h2{
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.count{
+    border-radius:20px;
+    width: 77px;
+    height: 77px;
+    line-height: 70px;
+font-weight: 700;
+font-size: 20px;
+color: #000;
+text-align: center;
+display: inline-block;
+
+margin-right: 35px;
+
+}
+.iners-text{
+    display: inline-block;
+}
+.iners-text .title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height:140%;
+}
+.iners-text .subTitle{
+    font-weight: 700;
+    font-size: 15px;
+    line-height:140%;
+}
+.iner{
+    margin-bottom: 40px;
+    line-height: 101px;
+}
+.product2{
+    border-radius: 70px;
+    width: 100%;
+    background: linear-gradient(180deg, #9dff95 0%, #5bc4ff 100%);
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
