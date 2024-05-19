@@ -15,7 +15,8 @@ body{
 .wrapper{
     width: 720px;
     margin: 0 auto;
-    margin-bottom: 120px;
+    padding: 20px;
+    background: #ffebcd;
 }
 
 .header{
@@ -67,7 +68,7 @@ body{
     border-radius: 100px;
     padding: 22px 70px;
     width: 218px;
-    height: 69px;
+    height: 90px;
     background: #e94e10;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -78,6 +79,7 @@ body{
     border: 1px solid #000;
     transition: 0.8s;
     margin-bottom: 120px;
+    text-align: center;
 }
 
 .text a:hover{
@@ -89,9 +91,6 @@ body{
     font-size: 40px;
     margin-bottom: 70px;
     text-align: center;
-}
-.text h3{
-    
 }
 .count{
     border-radius:20px;
@@ -124,11 +123,11 @@ margin-right: 35px;
     margin-bottom: 40px;
     line-height: 101px;
 }
-.prroduct{
+.product2{
     border-radius: 70px;
-    width: 465px;
-    height: 465px;
+    width: 100%;
     background: linear-gradient(180deg, #9dff95 0%, #5bc4ff 100%);
     margin: 0 auto;
     position: relative;
+    text-align: center;
 }
